@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?", "hi there", "hello chatbot", "yo", "sup"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Greetings! How may I be of service?"]
+    },
+
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "name", "what's your name", "who are you", "what should I call you", "do you have a name"],
+      "responses": ["You can call me EdBot, your virtual college assistant.", "I'm EdBot, here to assist you with all your queries.", "I'm EdBot, your go-to guide for college information."]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": ["what courses are available", "how many courses are there in this college", "list of courses", "what programs do you offer", "which streams are available"],
+      "responses": ["Our college offers the following programs: Computer Science (CSE), Information Science (ISE), Artificial Intelligence and Machine Learning (AIML), Mechanical Engineering (MECH), Civil Engineering, Electronics and Telecommunication (ETE), and Electronics and Communication (ECE)."]
+    },
+
+    {
+      "tag": "courseDuration",
+      "patterns": ["how long is a course", "what is the duration of a course", "how many years is a course", "course length", "how long will it take to complete a course"],
+      "responses": ["Most of our undergraduate programs are 4 years long, divided into 8 semesters."]
+    },
+
+    {
+      "tag": "location",
+      "patterns": ["where is the college located", "location", "what is the address of the college", "where can I find the college", "college address"],
+      "responses": ["Our college is located in Yelahanka, Bangalore. For detailed directions, please let us know your location."]
+    },
+
+    {
+      "tag": "semesters",
+      "patterns": ["how many semesters are there in a year", "how many semesters are required to complete a degree", "semester count", "how many semesters in total"],
+      "responses": ["There are 2 semesters in a year, making a total of 8 semesters for a 4-year undergraduate program."]
+    },
+
+    {
+      "tag": "semDuration",
+      "patterns": ["how long is a semester", "how many months in a semester", "semester duration", "length of a semester"],
+      "responses": ["Each semester typically lasts around 4 months, including exams and evaluations."]
+    },
+
+    {
+      "tag": "studentRequirements",
+      "patterns": ["what are the requirements for admission", "admission criteria", "student eligibility", "entry requirements", "admission process details"],
+      "responses": ["To be eligible for admission, 10+2 with 45% aggregate . Accepting Exams: COMEDK UGET, KCET."]
+    },
+
+    {
+      "tag": "classes",
+      "patterns": ["how many classes in a day", "class timings", "how long are the classes", "daily schedule"],
+      "responses": ["On average, there are 4-5 classes per day, and each class lasts for 1 hour. Timings vary depending on the schedule."]
+    },
+
+    {
+      "tag": "teachingStyle",
+      "patterns": ["what is the teaching style", "teaching methodology", "how are classes conducted", "teaching pattern"],
+      "responses": ["Our college follows emphasizing Lecture, Tutorial, and Workshop (LTW) techniques. This ensures a comprehensive understanding through interactive sessions and practical applications."]
+    },
+
+    {
+      "tag": "exams",
+      "patterns": ["what is the exam format", "exam structure", "how are exams conducted", "what are exams like"],
+      "responses": ["Exams include assignments and written tests. Assignments carry significant weightage and have strict deadlines. Meeting these deadlines is crucial for achieving better marks."]
+    },
+
+    {
+      "tag": "hours",
+      "patterns": ["what are your hours", "when is the college open", "operation hours", "college timings"],
+      "responses": ["The college premises are open from 7:00 AM to 5:00 PM. However, you can message us here anytime for queries."]
+    },
+
+    {
+      "tag": "funActivities",
+      "patterns": ["are there extracurricular activities", "what fun activities are there", "does the college have sports", "any yearly events"],
+      "responses": ["Yes, our college encourages extracurricular activities. We organize events such as Sports Meet, Carnivals, Holi Festivals, and Christmas Celebrations. Facilities include basketball courts, badminton courts, table tennis, chess, and more."]
+    },
+
+    {
+      "tag": "facilities",
+      "patterns": ["what facilities does the college provide", "student facilities", "college infrastructure"],
+      "responses": ["Our college provides excellent infrastructure, including:\n- 24-hour internet access\n- AC-equipped classrooms\n- Well-stocked library\n- Discussion rooms\n- Canteen\n- Ample parking space\n- Student service desk for any queries"]
+    },
+
+    {
+      "tag": "fee",
+      "patterns": ["what is the fee structure", "how much is the college fee", "tuition cost", "fee details"],
+      "responses": ["Karnataka Common Entrance Test (KCET), the annual tuition fee is approximately ₹1,30,000 per year, totaling around ₹5,20,000 for the four-year program.(COMEDK), the annual tuition fee is about ₹2,92,000 per year, amounting to approximately ₹11,68,000 over four years.Additionally, BMSIT&M offers management quota seats with fees varying by course."]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "bye", "see you later", "take care", "I am leaving", "have a good day", "cya"],
+      "responses": ["Goodbye! Have a wonderful day ahead!", "Take care! Reach out anytime you need assistance.", "See you later! Don’t hesitate to contact me if you have more questions."]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "much appreciated", "thanks a lot", "thank you for your help"],
+      "responses": ["You're welcome! Let me know if there's anything else I can help you with.", "Always happy to assist!", "My pleasure! Don’t hesitate to reach out again."]
+    },
+
+    {
+      "tag": "invalid",
+      "patterns": ["", "random gibberish", "asdfgh", "blah blah", "nonsense text"],
+      "responses": ["I'm sorry, I couldn't understand that. Could you please rephrase?", "Apologies, but I need more information to assist you.", "I’m not sure I understand. Could you clarify your question?"]
+    }
+  ]
+}
